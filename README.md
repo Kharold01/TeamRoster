@@ -5,7 +5,7 @@ My data set will be comprised of roster information for my team on campus, as we
 
 Here is an example of an entry you might find in my dataset:
 
-'{ "playerName": "Katie Harold", "gender": "f", "jerseyNumber": "5", "heightIn": 66, "year": "Senior", "position": "G" }
+'{ "playerName": "Katie Harold", "gender": "f", "jerseyNumber": 5, "heightIn": 66, "year": "Senior", "position": "G" }'
 
 With this dataset, I hope to be able to ask questions like:
 
