@@ -17,7 +17,7 @@ function map(array, transform) {
 	return mapped;
 }
 
-var sixFeet = rosterFile.filter(function(person) {
+var sixFeet = roster.filter(function(person) {
 	return person.heightIn > 72;
 });
 
