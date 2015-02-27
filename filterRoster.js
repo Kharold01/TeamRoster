@@ -21,5 +21,5 @@ function filter(array, test) {
 }
 
 console.log(filter(roster, function(person) {
-	return person.gender = "f";
+	return person.gender == 'f';
 	}));
