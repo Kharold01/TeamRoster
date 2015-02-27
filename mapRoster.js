@@ -22,7 +22,7 @@ var sixFeet = roster.filter(function(person) {
 });
 
 console.log(map(sixFeet, function(person) {
-	return person.name;
+	return person.playerName;
 }));
 
 
