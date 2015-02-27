@@ -10,7 +10,7 @@
 // Using the larder format of the entries...
 
 
-var rosterFile = "[/n " + [
+var rosterFile = "[\n " + [
 '{"playerName": "Katie Harold", "gender": "f", "jerseyNumber": 5, "heightIn": 66, "year": "Senior", "position": "G"}', 
 '{"playerName": "Brittany Morris", "gender": "f", "jerseyNumber": 3, "heightIn": 64, "year": "Sophomore", "position": "G"}',
 '{"playerName": "Kalea Parks", "gender": "f", "jerseyNumber": 11, "heightIn": 72, "year": "R. Sophomore", "position": "F"}',
@@ -42,7 +42,7 @@ var rosterFile = "[/n " + [
 '{"playerName": "Aleksa Kojcinovic", "gender": "m", "jerseyNumber": 45, "heightIn": 80, "year": "R. Junior", "position": "F"}'].join(",\n ") + "\n]";
 
 if (typeof module != "undefined" && module.exports)
-	//module.exports = rosterFile;
+	module.exports = rosterFile;
 
 
 
