@@ -10,6 +10,8 @@ Here is an example of an entry you might find in my dataset:
 With this dataset, I hope to be able to ask questions like:
 
 -how tall is [person] in feet?
+-who is the tallest/shortest?
+-who wears the smallest/largest jersey number?
 -how many seniors are there?
 -who are the females?
 ...and I want to be able to find the right person if I search by number and there are 2 people with the same one. 
