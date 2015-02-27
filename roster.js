@@ -41,5 +41,49 @@ var rosterFile = "[/n " + [
 '{"playerName": "Danilo Zekovic", "gender": "m", "jerseyNumber": 40, "heightIn": 77, "year": "Junior", "position": "G/F"}',
 '{"playerName": "Aleksa Kojcinovic", "gender": "m", "jerseyNumber": 45, "heightIn": 80, "year": "R. Junior", "position": "F"}'].join(",\n ") + "\n]";
 
+if (typeof module != "undefined" && module.exports)
+	//module.exports = rosterFile;
+
+
+
+// Because idk how to import...
+// mapping this dataset
+
+
+/*function map(array, transform) {
+	var mapped = [];
+	for (var i = 0; i < array.length; i++)
+		mapped.push(transform(array[i]));
+	return mapped;
+}
+
+var sixFeet = rosterFile.filter(function(person) {
+	return person.heightIn > 72;
+});
+
+console.log(map(sixFeet, function(person) {
+	return person.name;
+}));*/
+
+
+// trying to filter for females..
+
+/*function filter(array, test) {
+	var passed = [];
+	for (var i = 0; i < array.length; i++) {
+		if (test(array[i]))
+			passed.push(array[i]);
+	}
+	return passed;
+}
+
+print(JSON.stringify(filter(rosterFile, function(person) {
+	return person.gender = "f";
+})));*/
+
+
+
+
+
 
 
