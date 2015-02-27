@@ -22,7 +22,7 @@ var sixFeet = rosterFile.filter(function(person) {
 });
 
 console.log(map(sixFeet, function(person) {
-	return person.heightIn > 72;
+	return person.name;
 }));
 
 
